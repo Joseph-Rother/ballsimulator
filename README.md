@@ -1,9 +1,27 @@
-# Ball Simulator
+# Ball Blaster
 
-This is a simple Pygame demo that shows a bouncing ball. To run it, make sure you have Python and Pygame installed.
+Ball Blaster is a small arcade game built with **Pygame**. You control a blue
+ball that can move around the screen and shoot bullets to destroy incoming
+enemy squares. As you score points, the game gets faster and more challenging.
 
-## Running the game
+## Requirements
 
-```
+- Python 3.11+
+- Pygame (``pip install pygame``)
+
+## Running the Game
+
+```bash
 python3 main.py
 ```
+
+## Gameplay
+
+* Move with the **arrow keys** or **WASD**.
+* Shoot bullets with the **Space** key.
+* Avoid colliding with enemies; you have three lives.
+* Score points by shooting enemies. Every 10 points increases the level and the
+enemy spawn rate.
+
+More information about the design and features can be found in
+[docs/GameDesign.md](docs/GameDesign.md).
